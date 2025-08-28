@@ -47,5 +47,20 @@ loginUser("uday" , 'u@t');
 
 
 
+const heros = ["thor", "spiderman",2,]
+heros.map((hero)=>{
+    return `hero is${hero}`
+
+})
+
+
+//we should explicitly  mention return type of a function is "void" if it is not returning anything
+
+function consoleError(errmsg: string): void{
+    console.log(errmsg)
+}
+
+
+
 
 export {}
