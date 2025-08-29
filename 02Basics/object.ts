@@ -2,7 +2,7 @@
 
 // syntax of object is similar in TS like the JS
 
-const student ={
+const student1 ={
     name: "Uday",
     course: "B.Tech",
     Marks: 80
